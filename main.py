@@ -16,7 +16,6 @@ def get_keyboard_input_pro():
     root = tk.Tk()
     root.bind_all('<KeyRelease>', lambda ev: key_release_handle(ev, root))
     root.lower()
-    root.mainloop()
     print(result)
     return result
 
